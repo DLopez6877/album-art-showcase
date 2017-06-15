@@ -1,0 +1,82 @@
+body {
+  background-color: #555;
+  font-family: 'Open Sans', cursive;
+}
+
+.jumbotron h1 {
+  color: #d7c867;
+  text-shadow: 1px 10px 10px #000;
+}
+
+.jumbotron {
+  text-align: center;
+  background: linear-gradient(#ed8138, #837622), url("../img/collage.gif") no-repeat;
+  background-blend-mode: hue;
+  background-size: cover;
+  background-position: center;
+  height: 30vh;
+}
+.jumbotron h1 {
+  font-size: 6vmax;
+  font-family: 'Rubik Mono One', serif;
+  text-transform: uppercase;
+}
+
+.navbar-default {
+  background: #333;
+  box-shadow: inset 0 0 20px #ed8138;
+}
+
+.navbar-default .navbar-brand {
+  color: #cdba3e;
+  text-shadow: 1px 1px 1px #333;
+  font-size: 2em;
+  padding-top: 25px;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.gallery-area {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex-grow: 1;
+  margin: 20px;
+  display: flex;
+}
+.column .artist-info {
+  margin: auto;
+  text-align: center;
+}
+.column img {
+  margin: auto;
+  max-height: 50vh;
+}
+
+.btn-warning, .btn-warning:active {
+  background-image: linear-gradient(to bottom, #837622 0, #713f5f 100%);
+}
+
+.btn-warning:hover {
+  background: #713f5f;
+}
+
+.navbar-default .navbar-nav li a,
+.navbar-default .navbar-nav li a:link, .navbar-default .navbar-nav li a:visited {
+  color: #ed8138;
+  font-size: 1.3em;
+}
+
+.navbar-default .navbar-nav li a:hover {
+  color: #837622;
+}
+
+/*# sourceMappingURL=styles.css.map */
